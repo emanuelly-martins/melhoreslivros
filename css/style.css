@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #567C8D;
+    background-color: #96cce3;
     color: #071f3a;
     padding: 20px;
     display: flex;
@@ -35,7 +35,7 @@ header p {
 }
 
 #introducao {
-    background-color: #567C8D;
+    background-color: #96cce3;
     color: #071f3a;
     display: flex;
     flex-direction: row;
