@@ -1,16 +1,28 @@
 * {
     padding: 0;
-    margin: 10;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body {
+    background-color: #cde6f8;
     font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
 }
 
 header {
-    background-color: white;
+    background-color: #567C8D;
+    color: #071f3a;
+    padding: 20px;
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 12px;
 }
 
 #menu {
@@ -23,7 +35,8 @@ header {
 }
 
 #introducao {
-    background-color:rgb(147, 202, 147);
+    background-color: #567C8D;
+    color: #071f3a;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -32,35 +45,63 @@ header {
     justify-content: space-between;
 }
 
+#introducao h2 {
+    font-size: 50px;
+}
+
+#texto {
+    color: black;
+}
+
 #introducao img {
     width: 500px;
     height: 250px;
     margin-bottom: 20px;
 }
 
+#livros {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #132a44;
+    padding-left: 30px;
+}
+
+#livros h3 {
+    font-size: 50px;
+}
+
 #cards {
     display: flex;
-    gap: 20px;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 40px;
 }
 
 .card {
     background-color: white;
     padding: 20px;
-    width: 30%;
+    width: 22%;
     border-radius: 20px;
     text-align: center;
 }
 
 .card img {
     width: 100%;
-    border-radius: 20px;
-    height: 300px;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
 }
 
 .card p {
     margin-top: 10px;
     font-weight: bold;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+#final hr {
+    margin-bottom: 20px;
 }
